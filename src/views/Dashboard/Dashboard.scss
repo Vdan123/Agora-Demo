@@ -1,0 +1,23 @@
+.dashboard-header {
+  background: rgb(1, 1, 1);
+  color: #ffffff;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1010;
+  transform: translateY(0%);
+  font-weight: 500;
+}
+
+.dashboard-content {
+  padding-top: 64px;
+}
+
+
+.dashboard-empty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 64px - 16px - 144px - 28px - 36px);
+}

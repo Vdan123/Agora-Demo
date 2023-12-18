@@ -1,0 +1,25 @@
+@import 'vue-datepicker-next/index.css';
+
+.mx-time {
+  background-color: #010101;
+}
+
+.mx-datepicker-main {
+  border: 1px solid #424242;
+}
+
+.mx-time-column {
+  border-left: 1px solid #424242;
+}
+
+.mx-icon-calendar, .mx-icon-clear {
+  color: #fff;
+}
+
+.mx-icon-clear:hover {
+  color: #fff;
+}
+
+.mx-time-item:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+}

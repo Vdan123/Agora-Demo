@@ -1,0 +1,16 @@
+.app-drawer-content {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+//这个需要使用 props 来确定
+.app-drawer {
+  .v-overlay__content {
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+}

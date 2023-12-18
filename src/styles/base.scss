@@ -1,0 +1,81 @@
+@import "./scrollbar.scss";
+@import "./color.scss";
+
+
+html,
+body,
+#root,
+#app {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+body {
+  @include fancy-scrollbar-mixin;
+  margin: 0;
+  padding: 0;
+}
+
+
+*, ::after, ::before {
+  box-sizing: inherit;
+  border: 0 solid #d9d9e3;
+}
+
+
+.class-schedule-nav-list {
+  @include fancy-scrollbar-mixin;
+}
+
+select {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+  -webkit-appearance: none;
+  resize: none;
+}
+
+.fancy-scrollbar {
+  @include fancy-scrollbar-mixin;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.goal-go-main {
+  background: #010101;
+  //background: rgb(242, 243, 245);
+  //background: $gray-200-twilight-900;
+}
+
+.goal-go-pointer {
+  cursor: pointer;
+}
+
+.goal-go-header {
+  //border-bottom: 1px solid #E0E0E0;
+}
+
+.ga-3 {
+  gap: 12px !important;
+}
+
+.ga-2 {
+  gap: 8px !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}

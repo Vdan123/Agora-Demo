@@ -1,0 +1,59 @@
+{
+  "name": "goal-go",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --debug hmr --profile",
+    "build:staging": "vite build --mode staging --profile",
+    "build:pro": "vite build --profile",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "@popperjs/core": "^2.11.8",
+    "@vueuse/core": "^10.5.0",
+    "@vueuse/integrations": "^10.5.0",
+    "agora-rtc-sdk-ng": "^4.19.1",
+    "ant-design-vue": "^4.0.7",
+    "axios": "^1.5.1",
+    "core-js": "^3.29.0",
+    "lodash-es": "^4.17.21",
+    "lottie-web": "^5.12.2",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.0",
+    "qs": "^6.11.2",
+    "roboto-fontface": "*",
+    "uuid": "^9.0.1",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.4.4"
+  },
+  "devDependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@sentry/vite-plugin": "2.9.0",
+    "@sentry/vue": "^7.77.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "animate.css": "^4.1.1",
+    "canvas-confetti": "^1.9.2",
+    "eslint": "^8.37.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-vue": "^9.3.0",
+    "rollup-plugin-visualizer": "^5.9.2",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "unplugin-fonts": "^1.0.3",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.2.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-externals": "^0.6.2",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vue-datepicker-next": "^1.0.3"
+  },
+  "resolutions": {
+    "bin-wrapper": "npm:bin-wrapper-china"
+  }
+}
